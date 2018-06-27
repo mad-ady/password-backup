@@ -2,6 +2,7 @@
 
 echo "Backing up $1"
 backupsToKeep=20
+# Change the destinations array to point to where you want to save the files
 destinations=()
 destinations[0]=/backup/kppassword
 destinations[1]=/media/ssd/ssd250/backup/kppassword
